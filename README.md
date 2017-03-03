@@ -1,0 +1,1 @@
+# nativescript-device-uuid
