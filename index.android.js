@@ -1,6 +1,6 @@
 "use strict";
-var platform_1 = require("platform");
+var platform = require("platform");
 function getUUID() {
-    return platform_1.platform.Device.uuid;
+    return platform.device.uuid;
 }
 exports.getUUID = getUUID;
