@@ -4,67 +4,9 @@
   "description": "A NativeScript plugin for Andoid and iOS that allows you to get a UUID (Universal Unique Identifier) for a device.",
   "main": "index.js",
   "nativescript": {
-    "id": "org.nativescript.deviceuuid",
     "platforms": {
-      "ios": "2.4.0",
-      "android": "2.4.0"
+      "ios": "3.0.0",
+      "android": "3.0.0"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mobilemindtec/nativescript-device-uuid.git"
-  },
-  "keywords": [
-    "NativeScript",
-    "iOS",
-    "UUID",
-    "Device",
-    "Universal Unique Identifier",
-    "iPhone",
-    "iPad"
-  ],
-  "author": {
-    "name": "Rossen Hristov",
-    "email": "rossen.hristov@telerik.com",
-    "url": "https://github.com/hamorphis"
-  },
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/hamorphis/nativescript-ios-uuid/issues"
-  },
-  "homepage": "https://github.com/hamorphis/nativescript-ios-uuid",
-  "devDependencies": {
-    "tns-core-modules": "^2.4.2",
-    "tns-platform-declarations": "^2.4.2",
-    "typescript": "^2.1.4"
-  },
-  "scripts": {
-    "tsc": "tsc",
-    "prepublish": "tsc"
-  },
-  "_id": "nativescript-ios-uuid@1.0.0",
-  "_shasum": "e88ae2c79cc17385a77a22c80f4dbf632113290b",
-  "_from": "nativescript-ios-uuid@>=1.0.0 <2.0.0",
-  "_npmVersion": "3.10.8",
-  "_nodeVersion": "6.9.1",
-  "_npmUser": {
-    "name": "hamorphis",
-    "email": "rossen.hristov@progress.com"
-  },
-  "dist": {
-    "shasum": "e88ae2c79cc17385a77a22c80f4dbf632113290b",
-    "tarball": "https://registry.npmjs.org/nativescript-ios-uuid/-/nativescript-ios-uuid-1.0.0.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "hamorphis",
-      "email": "hamorphis@gmail.com"
-    }
-  ],
-  "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/nativescript-ios-uuid-1.0.0.tgz_1481714026940_0.30796802300028503"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/nativescript-ios-uuid/-/nativescript-ios-uuid-1.0.0.tgz"
+  }
 }
