@@ -1,5 +1,5 @@
-import platform = require("platform"); 
+import {device} form "platform"; 
 
 export function getUUID() {
-    return platform.device.uuid;
+    return device.uuid;
 }
