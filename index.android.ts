@@ -1,5 +1,5 @@
-import {device} form "platform"; 
+import {Device} from "@nativescript/core/platform"; 
 
 export function getUUID() {
-    return platform.Device.uuid;
+    return Device.uuid;
 }

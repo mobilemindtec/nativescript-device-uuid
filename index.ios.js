@@ -1,5 +1,4 @@
 "use strict";
-var utils_1 = require("utils/utils");
 function getUUID() {
     var mainBundle = NSBundle.mainBundle;
     var appName = mainBundle.infoDictionary.objectForKey(kCFBundleNameKey);

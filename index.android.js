@@ -1,5 +1,5 @@
 "use strict";
-var platform = require("platform");
+var platform = require("@nativescript/core/platform");
 function getUUID() {
     return platform.Device.uuid;
 }
