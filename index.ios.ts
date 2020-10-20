@@ -1,4 +1,6 @@
-import { ios } from "utils/utils"; 
+
+declare let SAMKeychain:any;
+declare let kCFBundleNameKey:any;
 
 export function getUUID() {
     let mainBundle = NSBundle.mainBundle;
